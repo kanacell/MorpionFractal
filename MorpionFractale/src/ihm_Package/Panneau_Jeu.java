@@ -33,7 +33,7 @@ public class Panneau_Jeu extends JComponent{
 	 */
 	public Panneau_Jeu (Plateau referencePanneau, Engine referenceEngine){
 		plateauDeJeu = referencePanneau;
-		addMouseListener(new GestionGame(this, referenceEngine));
+		addMouseListener(new GestionJeu(this, referenceEngine));
 		initialisation();
 	}
 	/*

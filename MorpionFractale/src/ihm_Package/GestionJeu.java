@@ -8,7 +8,7 @@ import java.awt.event.MouseListener;
 
 import engine_Package.Engine;
 
-public class GestionGame implements MouseListener{
+public class GestionJeu implements MouseListener{
 	/*
 	 * ATTRIBUTS
 	 */
@@ -21,7 +21,7 @@ public class GestionGame implements MouseListener{
 	/*
 	 * CONSTRUCTEURS
 	 */
-	public GestionGame (Panneau_Jeu referencePanneau, Engine referenceEngine){
+	public GestionJeu (Panneau_Jeu referencePanneau, Engine referenceEngine){
 		panneauDeJeu = referencePanneau;
 		gameEngine = referenceEngine;
 	}
